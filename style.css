@@ -1,0 +1,71 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.inputs .input-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.inputs .input-div input:nth-child(1){
+    margin-right: 10px;
+}
+.inputs .input-div div{
+    width: 48%;
+}
+.inputs .input-div div:nth-child(1){
+    margin-right: 20px;
+}
+.inputs .input-div input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    outline: none;
+
+}
+.inputs  button{
+    width: 150px;
+    height: 50px;
+    background:white ;
+    outline: none;
+    border: 1px solid black;
+    margin-top: 60px;
+    transition: all 300ms;
+}
+
+.inputs  button:hover{
+    background: black;
+    color: white;
+}
+
+table{
+    width: 100%;
+}
+table img{
+    width: 300px;
+    height: 300px;
+}
+table button{
+    width: 50px;
+    height: 50px;
+    background:white ;
+    outline: none;
+    border: 1px solid black;
+    margin-top: 60px;
+    transition: all 300ms;
+}
+table button:hover{
+    background: black;
+    color: white;
+}

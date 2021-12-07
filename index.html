@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Project</title>
+</head>
+<body>
+    
+    <div class="inputs container">
+        <div class="row">
+            <div class="col-12">
+                <div class="input-div">
+                    <div>
+                        <p>Yonetmen Adi</p>
+                        <input id="director" type="text" placeholder="Yonetmen Adi">
+                    </div>
+                    <div>
+                        <p>Film Adi</p>
+                        <input id="film_name" type="text" placeholder="Film Adi">
+                    </div>
+                    <div>
+                        <p>URL</p>
+                        <input id="url" type="text" placeholder="URL">
+                    </div>
+                </div>
+                <button onclick="addFilm()" id="Ekle">Ekle</button>
+            </div>
+            <div class="col-12 alert-col">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container films">
+        <div class="row">
+            <div class="col-12">
+                <table id="films_table">
+                    <tr>
+                      <th>Film Resmi</th>
+                      <th>Film Adi</th>
+                      <th>Yonetmen Adi</th>
+                    </tr>
+
+
+                  </table>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="ui.js"></script>
+    <script src="film.js"></script>
+    <script src="storage.js"></script>
+    <script src="project.js"></script>
+</body>
+</html>
